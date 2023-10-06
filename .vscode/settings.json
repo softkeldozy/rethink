@@ -1,0 +1,10 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#e5e1f1",
+    "editorBracketMatch.background": "#ff0000",
+    "activityBar.background": "#312E16",
+    "titleBar.activeBackground": "#45411F",
+    "titleBar.activeForeground": "#FCFBF8"
+  },
+  "editor.acceptSuggestionOnEnter": "on"
+}
