@@ -5,7 +5,7 @@ import frame from './svg/frame1.svg';
 const Head = () => {
   return (
     <div class="jumbotron">
-      <h1>Hey James!</h1>
+      <h1 className='lead'>Hey James!</h1>
       <p>Lets create something awesome today ✨💫.</p>
       <button className='btn'>Start Creating</button>
       <div className="container">

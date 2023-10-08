@@ -10,11 +10,12 @@
 
 
 .jumbotron {
-  /* width: 1376px;
-  height: 290px; */
-  /* flex-shrink: 0; */
-  padding: 80px;
-  margin: 20px;
+  width: 1759px;
+  height: 290px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  /* padding: 80px;
+  margin: 20px; */
   border-radius: 20px;
   border: 1px solid var(--retink-colour-style-retink-primary-purple-light-hover);
   background: radial-gradient(86.71% 86.73% at 50% 45.52%, #FFF 39.72%, #DCD1FF 100%);
@@ -29,6 +30,8 @@
   line-height: normal;
   text-align: start;
   color: var(--retink-colour-style-retink-grey-retink-grey-05);
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .jumbotron p {
@@ -38,8 +41,11 @@
   font-weight: 500;
   line-height: normal;
   text-align: start;
+  margin-left: 30px;
   color: var(--retink-colour-style-retink-grey-retink-grey-05, #4D4959);
 }
+
+
 
 .halfBall {
   width: 92.07px;
@@ -48,15 +54,10 @@
 }
 
 .btn {
-  /* position: relative;
-  left: 10px;
-  top: 10px;
-  width: 160px;
-  height: 40px;
-  border-radius: 15px 15px 15px 15px; */
   display: flex;
   padding: 13px 48px;
   margin-top: 43px;
+  margin-left: 30px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 20px;
