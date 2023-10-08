@@ -1,0 +1,42 @@
+:root {
+  --GREY3: #EBEAEF;
+  --retink-colour-style-retink-primary-purple-light: #EAE4FC;
+  --retink-colour-style-retink-grey-retink-grey05: #4D4959;
+  --retink-colour-style-retink-primary-purple-light-hover: #EAE4FC;
+  --retink-colour-style-retink-primary-purple-normal: #5E3EBA;
+  --retink-colour-style-retink-grey-retink-grey-05: #4D4959;
+  --retink-colour-style-retink-grey-retink-grey-0: #F4F3F6;
+}
+
+.Section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sectionTitle {
+  margin: 20px;
+}
+
+.header {
+  width: 1376px;
+  height: 85px;
+  flex-shrink: 0;
+}
+
+.intro {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.heading {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: start;
+  color: var(--retink-colour-style-retink-grey-retink-grey-05);
+}

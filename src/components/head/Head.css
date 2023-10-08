@@ -1,0 +1,65 @@
+:root {
+  --GREY3: #EBEAEF;
+  --retink-colour-style-retink-primary-purple-light: #EAE4FC;
+  --retink-colour-style-retink-grey-retink-grey05: #4D4959;
+  --retink-colour-style-retink-primary-purple-light-hover: #EAE4FC;
+  --retink-colour-style-retink-primary-purple-normal: #754DE8;
+  --retink-colour-style-retink-grey-retink-grey-05: #4D4959
+}
+
+
+
+.jumbotron {
+  /* width: 1376px;
+  height: 290px; */
+  /* flex-shrink: 0; */
+  padding: 80px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--retink-colour-style-retink-primary-purple-light-hover);
+  background: radial-gradient(86.71% 86.73% at 50% 45.52%, #FFF 39.72%, #DCD1FF 100%);
+}
+
+.jumbotron h1 {
+  /* Display1 */
+  font-family: Moranga;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: start;
+  color: var(--retink-colour-style-retink-grey-retink-grey-05);
+}
+
+.jumbotron p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: start;
+  color: var(--retink-colour-style-retink-grey-retink-grey-05, #4D4959);
+}
+
+.halfBall {
+  width: 92.07px;
+  height: 92.07px;
+  flex-shrink: 0;
+}
+
+.btn {
+  /* position: relative;
+  left: 10px;
+  top: 10px;
+  width: 160px;
+  height: 40px;
+  border-radius: 15px 15px 15px 15px; */
+  display: flex;
+  padding: 13px 48px;
+  margin-top: 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  border: 2px solid var(--retink-colour-style-retink-primary-purple-normal, #754DE8);
+  background: var(--White, #FFF);
+}
