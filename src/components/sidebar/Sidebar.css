@@ -13,6 +13,7 @@
   padding: 24px 15px;
   align-items: flex-start;
   gap: 10px;
+  position: fixed;
   flex-shrink: 0;
   background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD);
 }

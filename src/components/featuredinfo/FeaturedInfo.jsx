@@ -8,6 +8,7 @@ import Outline from './icons/edit-outline.svg';
 const FeaturedInfo = () => {
   return (
     <div className="featured">
+
       <div className="firstRow">
 
         <h3>Social Media</h3>
