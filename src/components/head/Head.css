@@ -45,8 +45,6 @@
   color: var(--retink-colour-style-retink-grey-retink-grey-05, #4D4959);
 }
 
-
-
 .halfBall {
   width: 92.07px;
   height: 92.07px;
@@ -60,7 +58,20 @@
   margin-left: 30px;
   align-items: flex-start;
   gap: 10px;
+  cursor: pointer;
   border-radius: 20px;
   border: 2px solid var(--retink-colour-style-retink-primary-purple-normal, #754DE8);
   background: var(--White, #FFF);
+}
+
+.dropDown select {
+  display: inline-flex;
+}
+
+#cities {
+  cursor: pointer;
+  width: 146px;
+  height: 38px;
+  flex-shrink: 0;
+
 }

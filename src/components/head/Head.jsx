@@ -11,11 +11,11 @@ const Head = () => {
       <div className="container">
         <img src={frame} alt='' className='halfBall' />
         <div className="dropDown">
-          <select id="cars" name="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+          <select id="cities" name="cities">
+            <option value="New York">Volvo</option>
+            <option value="Chicago">Saab</option>
+            <option value="Denver">Mercedes</option>
+            <option value="Washinton">Audi</option>
           </select>
         </div>
       </div>
