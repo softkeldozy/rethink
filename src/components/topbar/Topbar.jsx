@@ -12,21 +12,23 @@ const Topbar = () => {
   return (
     <div className='topbar'>
       <div className="topLeft">
-
-        <div className='search'>
-          <input type="text" placeholder="Search for templates, projects, etc" className='serachInput' />
-          <img src={search} alt='search' className='searchBtn' />
-          <img src={filter} alt='search' className='filterBtn' />
-          <img src={close} alt='search' className='closeBtn' />
-          <div className="btnGroup">
-            <button className='createContent'>
-              Create Content
-            </button>
-            <button className='rectangleBtn'>
-              <img src={coin} alt='search' className='coineBtn' />
-              20
-            </button>
+        <div className='searchArea'>
+          <div className="groupElems">
+            <img src={search} alt='search' className='searchIcon' />
+            <input type="text" placeholder="Search for templates, projects, etc" className='serachInput' />
+            <img src={filter} alt='search' className='filterBtn' />
+            <img src={close} alt='search' className='closeBtn' />
           </div>
+
+        </div>
+        <button className='createContent'>
+          Create Content
+        </button>
+        <button className='rectangleBtn'>
+          <img src={coin} alt='search' className='coineBtn' />
+          20
+        </button>
+        <div className="btnGroup">
 
         </div>
 
@@ -38,7 +40,9 @@ const Topbar = () => {
         <div className="topbarIconContainer">
           <img src={notification} alt='date' className='calBtn' />
         </div>
-        <img src={profilePic} alt='' className='topAvatar' />
+        <div className="profilePic">
+          <img src={profilePic} alt='' className='topAvatar' />
+        </div>
       </div>
     </div>
   )
