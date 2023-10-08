@@ -2,6 +2,8 @@ import React from 'react';
 import './FeaturedInfo.css';
 import edit from './icons/edit.svg';
 import uptrend from './icons/uptrend.svg';
+import Bullist from './icons/bulletList.svg';
+import Outline from './icons/edit-outline.svg';
 
 const FeaturedInfo = () => {
   return (
@@ -26,7 +28,7 @@ const FeaturedInfo = () => {
         <div className="blogTxtContainer">
           <div className="socialBtnContainer">
             <button className='editIconBtn' >
-              <img src={edit} alt='edit' className='socialIcon' />
+              <img src={Bullist} alt='edit' className='socialIcon' />
             </button>
             <button >
               <img src={uptrend} alt='up' className='socialIcon' />
@@ -40,7 +42,7 @@ const FeaturedInfo = () => {
         <div className="blogTxtContainer">
           <div className="socialBtnContainer">
             <button className='editIconBtn' >
-              <img src={edit} alt='edit' className='socialIcon' />
+              <img src={Outline} alt='edit' className='socialIcon' />
             </button>
             <button >
               <img src={uptrend} alt='up' className='socialIcon' />
@@ -86,7 +88,7 @@ const FeaturedInfo = () => {
         <div className="blogTxtContainer">
           <div className="socialBtnContainer">
             <button className='editIconBtn' >
-              <img src={edit} alt='edit' className='socialIcon' />
+              <img src={Bullist} alt='edit' className='socialIcon' />
             </button>
             <button >
               <img src={uptrend} alt='up' className='socialIcon' />
@@ -100,7 +102,7 @@ const FeaturedInfo = () => {
         <div className="blogTxtContainer">
           <div className="socialBtnContainer">
             <button className='editIconBtn' >
-              <img src={edit} alt='edit' className='socialIcon' />
+              <img src={Outline} alt='edit' className='socialIcon' />
             </button>
             <button >
               <img src={uptrend} alt='up' className='socialIcon' />
